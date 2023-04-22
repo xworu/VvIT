@@ -11,3 +11,8 @@ print("Минимальная температура:", data['main']['temp_min']
 print("Максимальная температура", data['main']['temp_max'])
 print("Видимость", data['visibility'])
 print("Скорость ветра", data['wind']['speed'])
+
+
+
+
+

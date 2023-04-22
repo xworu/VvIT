@@ -9,3 +9,4 @@ for i in data['list']:
     print("Дата <", i['dt_txt'], "> \r\nТемпература <", '{0:+3.0f}'.format(i['main']['temp']), "> \r\nПогодные условия "
                                                                                                "<", i['weather'][0]['description'], "> \r\nВидимость <", i['visibility'], "> \r\nСкорость ветра <", i['wind']['speed'], ">")
     print("____________________________")
+
